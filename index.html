@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Bem Vindo</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="calculo">
+                <h2>IMC</h2>
+                <p class="item">Digite seu peso: </p>
+                <input type="text" placeholder="Digite..." class="peso">
+                <p class="item">Digite sua altura: </p>
+                <input type="text" placeholder="Digite..." class="altura">
+                <button onclick="calculo()">Confirmar</button>
+                <p>Seu IMC é: <span class="imc-calculo"></span></p>
+                <p class="imc-diagnostico"></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
